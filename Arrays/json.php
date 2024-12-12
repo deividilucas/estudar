@@ -3,6 +3,8 @@
 // JSON ENCODE --> transforma array em json
 // JSON DECODE --> transforma o json em array , lembrar do true: json_decode($json, true);
 
+$pessoas = array();
+
 array_push($pessoas, array(
     'nome'=> 'Lucas',
     'idade'=> 34,
